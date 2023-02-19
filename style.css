@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,400&family=Ubuntu:ital,wght@0,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 54px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+.brand img {
+    width: 50px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.bottom{
+    position: sticky;
+    height: 74px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 15px;
+    background-image: url('images/pexels-soulful-pizza-3780681.jpg');
+    background-position: center;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.fa-solid{
+    height: 20px;
+    cursor: pointer;
+}
+
+.fa-play{
+    padding: 0px 10px;
+}
+
+.fa-pause {
+    padding: 0px 10px;
+}
+.song_Container_{
+    margin-top: 35px;
+}
+
+.songItem{
+    height: 55px;
+    display: flex;
+    background-color: white;
+    width: 55%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding-right: 20px;
+}
+
+.songItem img {
+    width: 43px;
+    height: 50px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
